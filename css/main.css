@@ -1,0 +1,152 @@
+/*VISUAL ARTS REPLICA
+[0]GENERAL
+[1]NAVIGATION
+[2]HEADER
+[3]SECTION
+[4]FOOTER
+*/
+
+/*[0]GENERAL*/
+body{
+	font-family: 'Lato', sans-serif;
+	font-size:16px;
+	margin: 0 10%;
+	padding: 0;
+	text-align: center;
+}
+input{
+	border: none;
+}
+a{
+	text-decoration: none;
+	color: #464;
+}
+.profile-pic{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+h1{
+    color: #242424;
+    font-family: 'Song Myung', serif;
+    font-weight: lighter;
+    font-size: 60px;
+    letter-spacing: -1px;
+    line-height: 60px;
+    margin: 1% 0;}
+p{
+	padding: 0 15%;
+	text-align: left;
+	line-height: 30px;
+}
+hr{
+	border: 1px solid #c79852;
+	margin: 3% auto;
+	width: 7%;
+}
+/*[1]NAVIGATION*/
+/*displaying the LI tags in the nav as inline-block will*/
+/*create a list on one line*/
+nav li{
+	display: inline-block;
+	width: 100%;
+}
+.nav-left{
+	float: left;
+}
+.nav-right{
+	float: right;
+}
+.nav{
+	padding: 0 10% 10% 0;
+	font-weight: bold; 
+	font-size: 16px;
+	color:#464;
+	text-align: center;
+}
+/*[2]HEADER*/
+section header{
+	text-align:center;
+}
+.header-pic{
+	text-align: center;
+}
+
+.fa-heart{
+	color:#ff0000;
+}
+/*[3]SECTION*/
+.chair1{
+	width: 100%;
+}
+.quote{
+	font-family: 'Sofia', cursive;
+	font-size: 26px;
+	line-height: 38px;
+	margin: 0 auto;
+	text-align: center;
+}
+.images{
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+.img1{
+	float:left;
+	width: 49%;
+	margin-top: 1%;
+}
+.img2{
+	width: 49%;
+	float: right;
+	margin-top: 1%;
+}
+/*[4] FOOTER*/
+.form{
+	text-align: center;
+}
+textarea{
+	padding: 1%;
+	line-height: 20px;
+	font-family: inherit;
+	font-size: 14px;
+	display: block;
+	width: 80%;
+	overflow: auto;
+	margin: 0 10%;
+}
+button{
+	background-color: inherit;
+	border: none;
+	display: inline-block;
+}
+footer.footer{
+	text-align: left;
+	padding-left: 28%;
+	width: 100%;
+	margin-left:-15%;
+	background-color: #F8F9FD;
+}
+.btn-btm button{
+	display: inline-block;
+	width: 49%;
+}
+.btn-btm{
+	height: 150px;
+	margin-top: 5%;
+	padding-bottom: 10%;
+	background-color: #F8F9FD;
+	padding: 5% 0 5% 0}
+.btn-left, .btn-right{
+	font-size: 18px;
+}
+.btn-left{
+	text-align: left;
+	margin-left: -10%;
+}
+.btn-right{
+	text-align: right;
+}
+.meow{
+	padding:0 0 0 30%;
+}
