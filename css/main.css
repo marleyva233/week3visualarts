@@ -4,6 +4,7 @@
 [2]HEADER
 [3]SECTION
 [4]FOOTER
+[5]MEDIA QUERIES
 */
 
 /*[0]GENERAL*/
@@ -149,4 +150,90 @@ footer.footer{
 }
 .meow{
 	padding:0 0 0 30%;
+}
+
+/*[5] MEDIA QUERIES*/
+@media only screen and (max-width: 700px){
+	.chair1{
+		width: 90%;
+	}
+	h1{
+		font-size: 36px;
+	}
+}
+@media only screen and (max-width: 655px ){
+	.profile-pic{
+		width: 50%;
+		height: 50%;
+	}
+	.images{
+		display: block;
+	}
+	.img1, .img2{
+		width: 90%;
+		float:initial;
+		margin: 0;
+	}
+}
+@media only screen and (max-width: 550px){
+	body{
+		margin: 0;
+	}
+	.nav{
+		padding: 0;	
+	}
+	.left,
+	.right{
+		padding: 0;
+	}
+	.header-pic{
+		text-align: center;
+		margin: 0;
+	}
+	.profile-pic{
+		display: block;
+		margin: 0 25%;}
+	.btn-right,
+	.btn-left{
+		padding: 0;
+		font-size: 12px;
+	}
+	.btn-btm{
+		padding: 0;
+	}
+	.btn-btm button{
+		width: 47%;
+	}
+}
+@media only screen and (max-width: 400px){
+	.nav,
+	.header-pic{
+		display: none;
+	}
+	footer button{
+		display: none;
+	}
+	.meow{
+		display: initial;
+		padding: 0;
+	}
+}
+@media only screen and (max-width: 325px){
+	p{
+		line-height: 20px;
+		padding: 5%;
+		font-size: 14px;
+	}
+	h1{
+		line-height: 22px;
+		font-size: 22px;
+	}
+	.quote{
+		font-family: 'Sofia', cursive;
+		font-size: 18px;
+		line-height: 28px;
+	}
+	h2{
+		font-size: 18px;
+	}
 }
